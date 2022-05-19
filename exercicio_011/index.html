@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+
+</head>
+<body>
+    <h1>Trabalhando Com Imagens</h1>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto_m.png" type="image/png">
+        
+        <img src="imagens/foto_g.png" alt="foto_grande">
+    </picture>
+    <h1>Adicinonando Audio Ao Site</h1>
+    <p>usando audio no navegador com html5</p>
+
+    <!--<audio src="midia/music.mp3"controls autoplay></audio>-->
+    <audio preload="" controls > <!--preload possui tres parametro metadata 'carrega os dados do audio', auto 'considera o site carregado
+        somente depois de carregar todo audio', none'não carrega nada' -->
+        <source src="midia/music.mp3" type="audio/mpeg">
+        <source src="midia/music.ogg" type="audio/ogg">
+        <source src="midia/music.wav" type="audio/wav">
+    </audio>
+
+
+</body>
+</html>

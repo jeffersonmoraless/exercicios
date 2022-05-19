@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(223, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;   
+}
+.titulos{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: rgb(238, 150, 150);
+    text-align: center;
+    border-radius: 30px;
+    font-size: 2.3em;
+}
+.paragrafos{
+    font-family: arial;
+    font-size: 1.3em;
+    color: rgb(73, 53, 53);
+    text-indent: 30px;
+}
+#par_1{
+    font-family: monospace;
+    font-size: 1em;
+    color: rgb(121, 0, 235);
+    font-style: italic;
+}
+.sub{
+    text-align: right;
+    color: rgb(253, 0, 0);
+
+}
+.nova{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 350;
+    font-style: italic;
+}
